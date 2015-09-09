@@ -1,0 +1,70 @@
+.blog {
+	.mdl-layout__header-row {
+		height: 90px;
+		padding-left: 30px;
+	}
+}
+.jambo-blog {
+	width: 100%;
+	background-image: url(../img/keyboards.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom:  100px;
+	h1 {
+		font-size: 97px;
+		color: $main-color;
+		text-align: center;
+		padding: 118px 0;
+		margin: 0;
+	}
+}
+.blog-content {
+	.page-content {
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+	h2 {
+		color: $main-color;
+		border-bottom: 1px solid;
+		margin-bottom: 40px;
+		padding-bottom: 18px;
+		border-bottom-color: rgba(224,224,224,0.9);
+	}
+	.post {
+		margin-bottom: 100px;
+		.post-image {
+			width: 100%;
+			height: 350px;
+			margin-bottom: 30px;
+			background-image: url(../img/code-listing.png);
+			background-size: cover;
+		}
+	}
+	.date {
+		display: inline-block;
+		width: 50%;
+		text-align: left;
+		margin-right: -4px;
+		text-transform: uppercase;
+	}
+	.read-more {
+		display: inline-block;
+		width: 50%;
+		text-align: right;
+		margin-right: -4px;
+	}
+}
+
+ @media screen and (max-width: 1024px) {
+	.mdl-layout-icon {
+ 		width: 100%;
+    	text-align: right;
+	}
+	.mdl-layout__header .mdl-layout__drawer-button {
+	    top: 16px;
+    	left: 15px;
+		.material-icons {
+			font-size: 48px
+		}
+	}
+}
